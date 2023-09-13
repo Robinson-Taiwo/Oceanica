@@ -1,0 +1,58 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.Home {
+    background-image: url(./assets/images/Background.jpg);
+    @apply  bg-cover bg-center bg-no-repeat py-[3.12rem]
+}
+
+.first-frame {
+    @apply mb-[3.12rem] phone:px-[1.5rem] flex flex-col justify-center items-center gap-[2.19rem]
+}
+
+.first-frame-head{
+  
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    @apply text-white   font-bold text-[2rem] text-center leading-normal
+}
+
+.first-frame-text{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    
+    @apply text-white font-normal text-[1.5rem] text-center leading-normal
+}
+
+.first-frame-cta{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    @apply text-[#838D9B] font-semibold text-[1.5rem] text-center leading-normal
+}
+
+.second-frame{ 
+    /* background-image: url(./assets/images/blur.png); */
+    background: rgba(0, 0, 0, 0.40);
+backdrop-filter: blur(12.5px);
+    @apply flex flex-col  px-[1.5rem] py-[0.94rem] gap-[1.88rem] text-[white]
+}
+
+.second-frame-info{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    @apply flex flex-col gap-[1.5rem] px-[0.94rem] text-center
+}
+
+.second-frame-heading{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    @apply font-medium text-[2rem]
+}
+
+.second-frame-des{
+    @apply font-normal text-[1.125rem]
+ }
+
