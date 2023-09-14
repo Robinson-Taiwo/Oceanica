@@ -2,6 +2,7 @@
 import React from 'react'
 import data from './data'
 import "./Home.css"
+import Monita from './Monita'
 const Home = () => {
 
 
@@ -47,7 +48,9 @@ const Home = () => {
 
             </div>
 
-            
+           
+
+
 
 
         </section>

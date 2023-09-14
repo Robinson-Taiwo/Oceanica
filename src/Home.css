@@ -17,20 +17,20 @@
   
     font-family: 'Kumbh Sans', sans-serif;
     font-family: 'Manrope', sans-serif;
-    @apply text-white   font-bold text-[2rem] text-center leading-normal
+    @apply text-white   font-bold text-[1.8rem] text-center leading-normal
 }
 
 .first-frame-text{
     font-family: 'Kumbh Sans', sans-serif;
     font-family: 'Manrope', sans-serif;
     
-    @apply text-white font-normal text-[1.5rem] text-center leading-normal
+    @apply text-white font-normal text-[1.3rem] text-center leading-normal
 }
 
 .first-frame-cta{
     font-family: 'Kumbh Sans', sans-serif;
     font-family: 'Manrope', sans-serif;
-    @apply text-[#838D9B] font-semibold text-[1.5rem] text-center leading-normal
+    @apply text-[#838D9B] font-semibold text-[1.3rem] text-center leading-normal
 }
 
 .second-frame{ 
@@ -49,10 +49,17 @@ backdrop-filter: blur(12.5px);
 .second-frame-heading{
     font-family: 'Kumbh Sans', sans-serif;
     font-family: 'Manrope', sans-serif;
-    @apply font-medium text-[2rem]
+    @apply font-medium text-[1.8rem]
 }
 
 .second-frame-des{
-    @apply font-normal text-[1.125rem]
+    @apply font-normal text-[1.1rem]
  }
 
+.monita-text{
+    @apply text-white text-center font-normal text-[1.31rem] 
+}
+
+.monita-from{
+    @apply text-center text-white font-semibold text-[1.312rem]
+}
