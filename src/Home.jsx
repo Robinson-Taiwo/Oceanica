@@ -3,13 +3,16 @@ import React from 'react'
 import data from './data'
 import "./Home.css"
 import Monita from './Monita'
+import Testimonial from './Testimonial'
+import Footer from './Footer'
+import Navbar from './Navbar'
 const Home = () => {
 
 
 
     return (
         <section className='Home'>
-
+<Navbar/>
             <div className="first-frame">
                 <h1 className="first-frame-head font-manrope">
                     Discover the water
@@ -47,6 +50,10 @@ const Home = () => {
 
 
             </div>
+
+            <Monita/>
+            <Testimonial/>
+            <Footer/>
 
            
 

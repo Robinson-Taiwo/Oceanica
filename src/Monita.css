@@ -5,6 +5,7 @@
 }
 
 .monita-container {
+    outline: 0.1rem solid #262C31;
     @apply flex flex-col gap-[1.56rem]
 }
 
@@ -18,9 +19,13 @@
     @apply font-bold text-[2.25rem] text-center text-white
 }
 
-/* .monita-dots{
-    @apply
-} */
+.monita-text{
+    @apply text-white text-center font-normal text-[1.1rem] 
+}
+
+.monita-from{
+    @apply text-center text-white font-semibold text-[1.112rem]
+}
 
 .dot-container {
     @apply w-[100%] flex justify-center mt-[1rem]

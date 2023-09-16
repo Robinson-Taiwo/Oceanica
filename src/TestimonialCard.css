@@ -1,0 +1,14 @@
+.TestimonialCard {
+    background: rgba(38, 44, 49, 0.25);
+    backdrop-filter: blur(12.5px);
+    @apply text-[white] flex py-[1.88rem] px-[1.31rem] flex-col gap-[2.19rem] items-center justify-center
+}
+
+.TestimonialCardImage {
+    border-radius: 50%;
+    @apply h-[9.375rem] w-[9.375rem]
+}
+
+.testimonialCardText{
+    @apply text-center
+}

@@ -1,0 +1,9 @@
+.Testimonial {
+    background-color: rgb(0, 0, 0);
+    background-image: url(./assets/images/historic-destinations.png);
+    @apply py-[3.12rem] px-[1.5rem] bg-cover flex flex-col bg-center    bg-no-repeat
+}
+
+.Testimonial-heading {
+    @apply text-[white] text-[2.6rem] font-semibold mb-[2.5rem]
+}

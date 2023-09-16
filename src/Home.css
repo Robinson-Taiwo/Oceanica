@@ -6,11 +6,11 @@
 
 .Home {
     background-image: url(./assets/images/Background.jpg);
-    @apply  bg-cover bg-center bg-no-repeat py-[3.12rem]
+    @apply  bg-cover bg-center bg-no-repeat pb-[3.12rem]
 }
 
 .first-frame {
-    @apply mb-[3.12rem] phone:px-[1.5rem] flex flex-col justify-center items-center gap-[2.19rem]
+    @apply mb-[3.12rem] phone:px-[1.5rem] flex flex-col justify-center items-center gap-[2.19rem] pt-[3.12rem]
 }
 
 .first-frame-head{
@@ -56,10 +56,3 @@ backdrop-filter: blur(12.5px);
     @apply font-normal text-[1.1rem]
  }
 
-.monita-text{
-    @apply text-white text-center font-normal text-[1.31rem] 
-}
-
-.monita-from{
-    @apply text-center text-white font-semibold text-[1.312rem]
-}
