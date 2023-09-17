@@ -1,5 +1,56 @@
 .footer {
     background-color: rgb(0, 0, 0);
-    @apply text-white flex flex-col items-center justify-center gap-[1.25rem]
+    @apply text-white flex flex-col items-center justify-center px-[1.5rem]
 }
 
+.footer ul {
+    @apply flex flex-col gap-[0.62rem] w-[100%] items-center justify-center text-center my-[1.25rem]
+}
+
+
+.footer ul li {
+    @apply text-white text-[0.75rem]
+}
+
+.footerLinks-heading {
+    @apply font-semibold
+}
+
+.footer-line {
+    @apply h-[0.03125rem] w-[6.1875rem] bg-[white] mt-[0.94rem]
+}
+
+.linkf {
+    @apply w-[100%] px-[0.62rem] py-[0.31rem] my-[0.62rem]
+}
+
+.footerLinks1,
+.footerLinks2,
+.footerLinks3 {
+    @apply flex flex-col items-center justify-center text-center
+}
+
+
+.footerLinks-heading {
+    @apply w-[100%] h-[100%]
+}
+
+.footerLinks {
+    @apply flex flex-row justify-center items-start
+}
+
+.footerHeadLinks {
+    @apply flex flex-row justify-center text-center
+}
+
+.footerHeadLinks div {
+    @apply flex flex-col justify-center items-center
+}
+
+.footerEmail-text {
+    @apply text-[0.75rem]
+}
+
+.footer-email {
+    @apply mt-[1.25rem] pt-[2.5rem]
+}
